@@ -2,6 +2,18 @@
 <resources>
 
     <string name="app_name">TripPlanner</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="app_title">Trip Planner</string>
+    <string name="next_trip"><u>Next Trip</u></string>
+    <string name="plan_a_trip">Plan A Trip</string>
+    <string name="trip_history">Trip History</string>
+    <string name="view_map">View Map</string>
+    <string name="view_alerts">View Alerts</string>
+    <string name="google_search">Google Search</string>
+    <string name="save_location">Save Location</string>
+    <string name="new_trip_name">Name:</string>
+    <string name="destination">Destination:</string>
+    <string name="start_date">Start Date:</string>
+    <string name="end_date">End Date:</string>
+	<string name="enter_start_date">Enter Start Date</string>
+	<string name="enter_end_date">Enter End Date</string>
 </resources>
