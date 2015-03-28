@@ -3,6 +3,7 @@ package com.example.tripplanner;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.KeyEvent;
@@ -72,9 +73,7 @@ public class NewTrip extends Activity implements OnClickListener{
 		
 		//If Packing List Button is clicked. 
 		case R.id.btnPackingListNT:
-			Toast.makeText(this,"You clicked the " + 
-					btnPackingList.getText().toString()+ " Button.",Toast.LENGTH_SHORT)
-			.show();
+			startActivity(new Intent (this,PackingList.class));
 			break;
 		
 		//If To Do List Button is clicked.

@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NewTrip"></activity>
+        <activity android:name=".PackingList"></activity>
     </application>
 
 </manifest>
