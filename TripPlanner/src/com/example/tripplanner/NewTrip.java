@@ -77,7 +77,7 @@ public class NewTrip extends Activity implements OnClickListener{
 			.show();
 			break;
 		
-		//If To Do List Button is clicked. 
+		//If To Do List Button is clicked.
 		case R.id.btnToDoListNT:
 			Toast.makeText(this,"You clicked the " + 
 					btnToDoList.getText().toString()+ " Button.",Toast.LENGTH_SHORT)
