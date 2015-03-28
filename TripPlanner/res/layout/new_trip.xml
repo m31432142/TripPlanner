@@ -64,12 +64,71 @@
         "
     </LinearLayout>
 	
-    <!-- Linear Layout for the Cancel and Save Buttons -->
+    <!-- Linear Layout for the Buttons -->
     <LinearLayout
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent"
 	    android:orientation="vertical" 
-	    android:layout_weight="1">   
+	    android:layout_weight="1">  
+	    
+        <!-- Linear Layout for the Cancel and Save Buttons -->
+        <LinearLayout
+	    		android:layout_width="match_parent"
+	    		android:layout_height="match_parent"
+	    		android:layout_weight="1"
+	    		android:orientation="horizontal">
+	    		
+	    	    <Button
+	    	        android:id="@+id/btnCancelNT"
+	    	        android:layout_width="match_parent"
+	    	        android:layout_height="match_parent"
+	    	        android:layout_weight="1"
+	    	        android:layout_margin="4dp"
+	    	        android:text="@string/NT_cancel">      
+	    	        
+	    	    </Button>
+	    	    <Button
+	    	        android:id="@+id/btnSaveNT"
+	    	        android:layout_width="match_parent"
+	    	        android:layout_height="match_parent"
+	    	        android:layout_weight="1"
+	    	        android:layout_margin="4dp"
+	    	        android:text="@string/NT_save">"
+	    	        
+	    	    </Button>
+            
+            
+        </LinearLayout>
+        
+        <!-- Linear Layout for Packing List and To Do List Buttons -->
+        <LinearLayout
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:layout_weight="1"
+    		android:orientation="horizontal">
+    		
+    	    <Button
+    	        android:id="@+id/btnPackingListNT"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="match_parent"
+    	        android:layout_weight="1"
+    	        android:layout_margin="4dp"
+    	        android:text="@string/NT_packing_list">      
+    	        
+    	    </Button>
+    	    <Button
+    	        android:id="@+id/btnToDoListNT"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="match_parent"
+    	        android:layout_weight="1"
+    	        android:layout_margin="4dp"
+    	        android:text="@string/NT_to_do_list">"
+    	        
+    	    </Button>
+           
+           
+       	</LinearLayout>
+        
 
 	</LinearLayout>
     
