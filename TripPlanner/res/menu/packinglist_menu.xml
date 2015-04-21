@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+      
+   	<item android:id="@+id/updateEntry"
+          android:title="Update Entry"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/deleteEntry"
+          android:title="Delete Entry"
+          android:showAsAction="never"/>
+
+    <item android:id="@+id/closeApp"
+          android:title="Close App"
+          android:showAsAction="never"/>
+
+</menu>

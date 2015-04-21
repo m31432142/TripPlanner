@@ -197,6 +197,17 @@ public class SQLHelper extends SQLiteOpenHelper {
 
 		return trip;
 	}
+	
+	public Trip getNewestTrip(){
+		String sql = "select max(id) from trip";
+		Cursor cursor = null;
+		SQLiteDatabase dbRead = this.getReadableDatabase();
+		
+		cursor.moveToFirst();
+		int id = Integer.parseInt(cursor.getString(0));
+		
+		return this.getTripByID(id);				
+	}
 
 	public void loadPackList(Trip trip) {
 		Cursor cursor;
